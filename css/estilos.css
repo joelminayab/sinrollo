@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fff;
+    font-size: 16px;
+    font-family: Rubik;
+    font-weight: 500;
+    font-style: normal;
+    font-family: Rubik; 
+
+}
+
+.contenedor{
+    width: 910%;
+    max-width: 700px;
+    overflow: hidden;
+    margin: auto;
+}
+
+/*header */ 
+.menu_bar {
+    display:none;
+    background-color: white;
+    
+}
+
+header {
+    width: 100%;
+    z-index: 1 !important;
+    position: absolute;
+    height: 4rem;
+}
+header nav {
+    margin: 0rem 2rem;
+    text-align: center;
+
+    /*puma*/
+    background: #FFF;
+    opacity: 0.5;
+    width: 33%;
+    margin: auto;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+header nav ul {
+    list-style:none;
+}
+header nav ul li {
+    display:inline-block;
+    position: relative;
+}
+
+header nav ul li a,
+header nav ul li a:link {
+    color: #000 !important;
+    border-bottom: 5px solid #fff;
+    padding-bottom: 5px;
+    margin-bottom: 24px;
+}
+
+header nav ul li a:hover,
+header nav ul li a:active {
+    color: #000 !important;
+    border-bottom: 2px solid #000;
+}
+
+.lala{
+    color:#000;
+    display:block;
+    text-decoration:none;
+    padding: 20px 10px ;
+
+}
+
+/*----------banner1-------------------------------*/ 
+
+.banner1{
+    background-image: url('../img/banner1.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.banner1-img {
+    width: 100%;
+    height: 675px;
+}
+.tablet1{
+    display: none;
+}
+.text-banner1{
+	position: absolute;
+    top: 21%;
+    left: 13%;
+}
+.text-banner1 p{
+    font-size: 1.5em;
+}
+
+h1 {
+	font-size: 3em;
+    line-height: 1.4;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.b1-text-h3{
+	font-weight: lighter;
+    font-size: 1.5em;
+}
+.icon-option {
+    position: absolute;
+    top: 72%;
+    left: 13%;
+}
+.banner1-icon-app{
+    margin: 0.5rem;
+    width: 34%;
+}
+.icon-down-open-big {
+    background: rgb(145, 243, 255);
+    border-radius: 50%;
+    border: 6px solid #fff;
+    cursor: pointer;
+    left: 50%;
+    padding: 7px;
+    position: absolute;
+    top: 94.5%;
+    z-index: 1;
+}
